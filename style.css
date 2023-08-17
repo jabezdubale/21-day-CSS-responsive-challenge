@@ -1,43 +1,46 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
-  font-family: "roboto";
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.hero {
+  padding: 100px 0;
   background: #23424a;
-  margin-bottom: 35%;
   color: white;
 }
 
-.intro-content {
-  padding: 10% 45% 5% 8.5%;
+.container {
+  margin: 0 auto;
+  margin-left: 10%;
+  width: 48%;
+  max-width: 750px;
 }
 
-.intro-content h1 {
+.container h1 {
   font-size: 48px;
   font-weight: 900;
 }
 
-.intro-content p {
+.container p {
   margin-top: 5%;
-  font-size: 21px;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
-.intro-content button {
-  margin: 10% 0 15% 0;
-  width: 285px;
-  height: 63px;
-  font-weight: 600;
+.container button {
+  font-size: 1.3rem;
+  height: 3em;
+  width: 13.7em;
+  margin-top: 5%;
   border: none;
-  font-size: 21px;
-  border-radius: 32px;
+  border-radius: 1.53em;
   background-color: #38CFD9;
-  ;
+  color: #23424a;
+  font-weight: 700;
 }
 
 
